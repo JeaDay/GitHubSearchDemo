@@ -2,33 +2,31 @@
 //  GitHubSearchDemoUITests.swift
 //  GitHubSearchDemoUITests
 //
-//  Created by Kamil Krzyszczak on 19/12/2018.
+//  Created by Kamil Krzyszczak on 23/12/2018.
 //  Copyright © 2018 JeaCode. All rights reserved.
 //
 
 import XCTest
 
+// swiftlint:disable line_length
 class GitHubSearchDemoUITests: XCTestCase {
 
+    //TODO This should be maked with WireMock
+
     override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-
-        // In UI tests it is usually best to stop immediately when a failure occurs.
         continueAfterFailure = false
-
-        // UI tests must launch the application that they test. Doing this in setup will make sure it happens for each test method.
         XCUIApplication().launch()
-
-        // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
     }
 
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testFullCycle() {
+        let app = XCUIApplication()
+        app.searchFields["Search for repository"].tap()
+        app.searchFields["Search for repository"].typeText("Tetris")
+        app/*@START_MENU_TOKEN@*/.buttons["Search"]/*[[".keyboards",".buttons[\"Szukaj\"]",".buttons[\"Search\"]"],[[[-1,2],[-1,1],[-1,0,1]],[[-1,2],[-1,1]]],[0]]@END_MENU_TOKEN@*/.tap()
+        app/*@START_MENU_TOKEN@*/.otherElements["PopoverDismissRegion"]/*[[".otherElements[\"dismiss popup\"]",".otherElements[\"PopoverDismissRegion\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        sleep(3)
+        app.tables/*@START_MENU_TOKEN@*/.staticTexts["chvin/react-tetris"]/*[[".cells.staticTexts[\"chvin\/react-tetris\"]",".staticTexts[\"chvin\/react-tetris\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        app/*@START_MENU_TOKEN@*/.otherElements["URL"]/*[[".buttons[\"Address\"]",".otherElements[\"Address\"]",".otherElements[\"URL\"]",".buttons[\"URL\"]"],[[[-1,2],[-1,1],[-1,3,1],[-1,0,1]],[[-1,2],[-1,1]]],[0]]@END_MENU_TOKEN@*/.tap()
     }
 
 }

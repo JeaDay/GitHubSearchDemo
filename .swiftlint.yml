@@ -1,0 +1,25 @@
+excluded: 
+  - Pods
+
+disabled_rules:
+  - identifier_name
+  - redundant_string_enum_value
+  - force_try
+  - todo
+
+line_length:
+  warning: 120
+  error: 150
+  ignores_comments: true
+
+file_length:
+  - 1000 # warning
+  - 1200 # error
+
+type_body_length:
+  - 300 # warning
+  - 400 # error
+
+function_body_length:
+  - 50 # warning
+  - 100 # error

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GitHubSearchDemo/Utils/APIClient.swift"
+            timestampString = "567221767.457822"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "prefetch(repositoryRequest:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GitHubSearchDemo/Utils/APIClient.swift"
+            timestampString = "567221767.457906"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "prefetch(repositoryRequest:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GitHubSearchDemoTests/Extensions/UIViewTests.swift"
+            timestampString = "567221767.457976"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "UIViewTests"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GitHubSearchDemoTests.UIViewTests.view.getter : Swift.Optional&lt;__C.UIView&gt;"
+                  moduleName = "GitHubSearchDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kamilkrzyszczak/Desktop/Repos/GitHubSearchDemo/GitHubSearchDemoTests/Extensions/UIViewTests.swift"
+                  timestampString = "567216777.0264241"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GitHubSearchDemoTests.UIViewTests.view.setter : Swift.Optional&lt;__C.UIView&gt;"
+                  moduleName = "GitHubSearchDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kamilkrzyszczak/Desktop/Repos/GitHubSearchDemo/GitHubSearchDemoTests/Extensions/UIViewTests.swift"
+                  timestampString = "567216777.030435"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GitHubSearchDemoTests.UIViewTests.init(invocation: Swift.Optional&lt;__C.NSInvocation&gt;) -&gt; GitHubSearchDemoTests.UIViewTests"
+                  moduleName = "GitHubSearchDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kamilkrzyszczak/Desktop/Repos/GitHubSearchDemo/GitHubSearchDemoTests/Extensions/UIViewTests.swift"
+                  timestampString = "567216777.03438"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GitHubSearchDemoTests.UIViewTests.init(selector: ObjectiveC.Selector) -&gt; GitHubSearchDemoTests.UIViewTests"
+                  moduleName = "GitHubSearchDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kamilkrzyszczak/Desktop/Repos/GitHubSearchDemo/GitHubSearchDemoTests/Extensions/UIViewTests.swift"
+                  timestampString = "567216777.037927"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GitHubSearchDemoTests.UIViewTests.init() -&gt; GitHubSearchDemoTests.UIViewTests"
+                  moduleName = "GitHubSearchDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kamilkrzyszczak/Desktop/Repos/GitHubSearchDemo/GitHubSearchDemoTests/Extensions/UIViewTests.swift"
+                  timestampString = "567216777.041062"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "23">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
